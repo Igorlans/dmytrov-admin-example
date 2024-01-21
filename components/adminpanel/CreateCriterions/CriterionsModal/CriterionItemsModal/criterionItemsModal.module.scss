@@ -1,0 +1,9 @@
+.criterionItemsModal {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+  .title {
+    font-size: 24px;
+  }
+}

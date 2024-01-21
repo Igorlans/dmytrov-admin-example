@@ -1,0 +1,65 @@
+.criterionsModal {
+
+  position: relative;
+  .close {
+    cursor: pointer;
+    color: #525050;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+  padding: 40px;
+  border-radius: 10px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  background: #fff;
+  .title {
+    font-size: 24px;
+  }
+  .itemsHeader {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    .title {
+      font-size: 20px;
+    }
+  }
+  .itemList {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    width: 100%;
+    gap: 15px;
+    .item {
+      .title {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        .name {
+          font-size: 16px;
+        }
+        .price {
+          font-size: 12px;
+          color: #96969a;
+        }
+      }
+      padding: 10px;
+      background: whitesmoke;
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .controls {
+        display: flex;
+        gap: 20px;
+        color: #5F5E67;
+      }
+    }
+  }
+
+}

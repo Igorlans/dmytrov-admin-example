@@ -1,0 +1,25 @@
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    label {
+      margin-bottom: 1rem;
+    }
+  
+    input {
+      padding: 0.5rem;
+      margin-bottom: 1rem;
+    }
+  
+  }
+  .button {
+    margin-top: 20px!important;
+    display: flex;
+    align-self: center;
+    margin: 0px auto;
+    padding: 5px 15px;
+    background-color: #e55733!important;
+    transition: 0.3s;
+    color: #fff;
+  }

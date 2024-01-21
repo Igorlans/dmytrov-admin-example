@@ -1,0 +1,52 @@
+.sidebarWr {
+    background-color: rgb(45, 45, 45);
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    .name {
+        height: 70px;
+        background-color: rgb(30, 30, 30);
+        margin-bottom: 25px;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .nameTitle {
+            color: white;
+            font-size: 30px;
+            font-weight: 600;
+        }
+    }
+}
+.categoryItem {
+    width: 75%;
+    margin: 0px auto;
+    &:hover {
+        .categoryName {
+            span {
+                transition: 500ms;
+                transform: translateX(15px);
+            }
+        }
+    }
+    .categoryName {
+        margin: 0 auto;
+        color: #fff;
+        background-color: rgb(30, 30, 30);
+        padding: 20px 0px 20px 15px; 
+        margin-bottom: 10px;
+        border-radius: 10px;
+        transition: 300ms;
+        cursor: pointer;
+        &:hover {
+            transition: 300ms;
+            background-color: #e55733;
+        }
+    }
+    .subcategories {
+        width: 90%;
+        margin: 0px auto;
+        font-weight: lighter;
+    }
+}
